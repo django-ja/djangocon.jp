@@ -160,9 +160,9 @@ blockquote small {
 /*     General overwrite     */
 body {
   color: #66615b;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
-  font-family: 'Montserrat', "Helvetica", Arial, sans-serif; }
+  font-family: "Montserrat", "Helvetica", "游ゴシック", YuGothic, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif; }
 
 a {
   color: #fd7e14; }
@@ -728,7 +728,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     padding: 7px; }
 
 .btn-lg {
-  font-size: 14px;
+  font-size: 16px;
   padding: 11px 30px; }
   .btn-lg.btn-simple {
     padding: 13px 30px; }
@@ -792,7 +792,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 
 .media .media-body .media-footer .btn-neutral {
   margin: 15px 3px;
-  font-size: 14px; }
+  font-size: 16px; }
   .media .media-body .media-footer .btn-neutral i {
     margin-right: 0 !important; }
 
@@ -821,7 +821,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   color: #66615b;
-  font-size: 14px;
+  font-size: 16px;
   padding: 7px 12px;
   height: 40px;
   -webkit-box-shadow: none;
@@ -855,7 +855,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
     border: 1px solid #f5593d; }
   .form-control + .form-control-feedback {
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 16px;
     color: #f5593d;
     font-size: .8rem;
     position: absolute;
@@ -1777,7 +1777,7 @@ textarea.form-control {
 
 .navbar {
   border: 0;
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   padding: 0;
@@ -1789,7 +1789,7 @@ textarea.form-control {
     font-weight: 600;
     margin: 5px 0px;
     padding: 20px 15px;
-    font-size: 14px;
+    font-size: 16px;
     color: #66615B;
     text-transform: uppercase; }
   .navbar .nav-link i {
@@ -2757,7 +2757,7 @@ textarea.form-control {
     text-align: center; }
   .dropdown .dropdown-menu .dropdown-item {
     color: #66615b !important;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px 45px 10px 15px;
     clear: both;
     white-space: nowrap;
@@ -2920,7 +2920,7 @@ textarea.form-control {
 
 .dropdown-sharing li {
   color: #66615b;
-  font-size: 14px; }
+  font-size: 16px; }
   .dropdown-sharing li .social-line {
     line-height: 28px;
     padding: 10px 20px 5px 20px; }

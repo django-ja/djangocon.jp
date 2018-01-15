@@ -3,7 +3,7 @@ body{
     color: $font-color;
     font-size: $font-size-base;
     font-weight: $font-weight-light;
-    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+    font-family: $font-family-sans-serif;
 }
 a{
   color: $info-color;
