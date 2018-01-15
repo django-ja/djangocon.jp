@@ -86,6 +86,13 @@
         background-color: $white-color;
     }
 }
+.btn-primary {
+    color: $default-color;
+    &:hover,
+    &:focus{
+        color: $default-color;
+    }
+}
 .btn-neutral {
     @include btn-styles($white-color, $white-color);
     color: $default-color;
