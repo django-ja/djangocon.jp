@@ -3687,7 +3687,7 @@ textarea.form-control {
   .fog-low {
     margin-bottom: -35px; }
   .presentation-title {
-    font-size: 4em !important; }
+    font-size: 3em !important; }
   .presentation-subtitle {
     margin-top: 40px; }
   .title-brand {
@@ -4939,7 +4939,7 @@ textarea.form-control {
     right: -15px; }
 
 .presentation-title {
-  font-size: 8em;
+  font-size: 5em;
   font-weight: 700;
   margin: 0;
   color: #FFFFFF;
