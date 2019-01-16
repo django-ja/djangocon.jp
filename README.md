@@ -1,1 +1,1 @@
-DjangoCon JP のサイトたたき台です
+DjangoCongress JP のサイト
