@@ -192,9 +192,9 @@ body {
   font-family: "Montserrat", "Helvetica", "游ゴシック", YuGothic, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif; }
 
 a {
-  color: #2BA3C8; }
+  color: #f5593d; }
   a:hover, a:focus {
-    color: #22819e;
+    color: #f33816;
     text-decoration: none; }
 
 hr {
@@ -1589,7 +1589,8 @@ textarea.form-control {
   color: #FFFFFF; }
 
 .section-dark {
-  background-color: #000393; }
+  background-color: #000393;
+  color: #FFFFFF; }
 
 .section-turquoise {
   background-color: #40E0D0; }
@@ -1672,7 +1673,8 @@ textarea.form-control {
 
 .section-image {
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  color: #FFFFFF; }
   .section-image:before {
     background-color: rgba(0, 0, 0, 0.5);
     content: "";
@@ -5093,12 +5095,12 @@ textarea.form-control {
   margin: 0;
   color: #FFFFFF;
   background: #fbf8ec;
-  background: -moz-linear-gradient(top, #FFFFFF 35%, #40E0D0 100%);
-  background: -webkit-linear-gradient(top, #FFFFFF 35%, #40E0D0 100%);
-  background: -ms-linear-gradient(top, #FFFFFF 35%, #40E0D0 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #FFFFFF), to(#40E0D0));
-  background: -o-linear-gradient(top, #FFFFFF 35%, #40E0D0 100%);
-  background: linear-gradient(to bottom, #FFFFFF 35%, #40E0D0 100%);
+  background: -moz-linear-gradient(top, #FFFFFF 35%, #406BC8 100%);
+  background: -webkit-linear-gradient(top, #FFFFFF 35%, #406BC8 100%);
+  background: -ms-linear-gradient(top, #FFFFFF 35%, #406BC8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #FFFFFF), to(#406BC8));
+  background: -o-linear-gradient(top, #FFFFFF 35%, #406BC8 100%);
+  background: linear-gradient(to bottom, #FFFFFF 35%, #406BC8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 

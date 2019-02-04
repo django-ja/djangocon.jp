@@ -6,10 +6,10 @@ body{
     font-family: $font-family-sans-serif;
 }
 a{
-  color: $info-color;
+  color: $danger-color;
 
   &:hover, &:focus{
-     color: $info-states-color;
+     color: $danger-states-color;
      text-decoration: none;
   }
 
