@@ -1,4 +1,4 @@
-$font-color:                 #66615b !default;
+$font-color:                 #66615b !default; //#66615b
 $fill-font-color:            rgba(255, 255, 255, 0.8);
 $font-family-sans-serif:     'Montserrat', "Helvetica", "游ゴシック", YuGothic, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
 
@@ -38,13 +38,13 @@ $default-color:              #66615B !default;
 $default-bg:                 #66615B !default;
 $default-states-color:       #403D39 !default;
 
-$primary-color:              #0C3C26 !default;
+$primary-color:              #00026F !default; //#0C3C26
 $primary-states-color:       darken($primary-color, 10%) !default;
 
 $success-color:              #40E0D0 !default;
 $success-states-color:       darken($success-color, 10%) !default;
 
-$info-color:                 #fd7e14 !default;
+$info-color:                 #2BA3C8 !default; //#fd7e14
 $info-states-color:          darken($info-color, 10%) !default;
 
 $warning-color:              #FFE600 !default;

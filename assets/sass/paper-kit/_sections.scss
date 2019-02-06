@@ -30,6 +30,7 @@
 }
 .section-dark{
     background-color: $bg-primary;
+    color: $white-color;
 }
 .section-turquoise{
     background-color: #40E0D0;
@@ -83,6 +84,7 @@
 .section-image{
     background-position: center center;
     background-size: cover;
+    color: $white-color;
 
     &:before{
         background-color: rgba(0, 0, 0, 0.5);
