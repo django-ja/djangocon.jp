@@ -1,3 +1,9 @@
+.img-icon {
+    width: 100%;
+    max-height: 120px;
+    max-width: 120px;
+}
+
 .section-jumbo .container {
     max-width: 790px;
 }
