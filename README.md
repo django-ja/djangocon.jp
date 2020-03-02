@@ -2,9 +2,9 @@
 
 ## Build
 
-[ruin](https://github.com/hirokiky/ruin/) を使ってビルドします。
+[ruins](https://github.com/hirokiky/ruins/) を使ってビルドします。
 
 ```
-$ pip install ruin
-$ ruin
+$ pip install ruins
+$ ruins
 ```
