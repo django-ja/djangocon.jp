@@ -1,0 +1,14 @@
+{% macro section(class, id, title, subtitle) %}
+  <section class="section {{ class }}" id="{{ id }}">
+    <div class="container">
+      <div class="tim-title">
+        <h2 class="title text-center">
+          {{ title }}
+          <br />
+          <small>{{ subtitle }}</small>
+        </h2>
+        {{ caller() }}
+      </div>
+    </div>
+  </section>
+{% endmacro %}
