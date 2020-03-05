@@ -70,6 +70,14 @@ a.btn-primary {
     max-width: 120px;
 }
 
+figure.image {
+    max-width: 100%;
+
+    img {
+        max-width: 100%;
+    }
+}
+
 // Specific Design
 
 .section-jumbo .container {
