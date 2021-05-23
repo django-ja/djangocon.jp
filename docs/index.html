@@ -74,6 +74,7 @@
 
 
 
+
 <div class="wrapper">
 
   <div class="page-header section-dark section-jumbo" style="background-image: url('static/img/bg_nagano.jpg'); filter: brightness(150%);">
@@ -100,18 +101,6 @@
       </div>
     </div>
   </div>
-</div>
-<div class="alert alert-primary text-dark text-center">
-  <h3 class="alert-heading mb-3">Djangoに関する発表を募集しています！</h3>
-  <p>
-    Djangoに関する知見をぜひ共有しませんか？応募は5〜10分ほどで完了します<br>
-    Want to share your knowledge about Django? It only takes about 5-10 minutes to fill out.
-  </p>
-  <p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSec2p3wgYvEvrVgLlxdoyeBLTI1Z0A59a35StbIkxQMVez2rg/viewform" class="btn btn-danger btn-round my-2" target="_blank">
-      発表に応募する / Open Form
-    </a>
-  </p>
 </div>
 
   <div class="main">
@@ -219,24 +208,268 @@
         <h2 class="title text-center">
           PROGRAM
           <br />
-          <small>プログラム / CFP</small>
+          <small>プログラム / Program</small>
         </h2>
         
-<div class="text-center">
-  <p>
-    発表（トーク）の応募をお待ちしております！<br>
-    Djangoに関する知見をぜひ共有しませんか？応募は5〜10分ほどで完了します。<br>
-    複数投稿も可能ですので、お気軽にご応募ください。<br>
-  </p>
-  <p>
-    Call for Proposals!<br>
-    Want to share your knowledge about Django? It only takes about 5-10 minutes to fill out.<br>
-    Multiple submissions are welcome! so feel free to apply.
-  </p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSec2p3wgYvEvrVgLlxdoyeBLTI1Z0A59a35StbIkxQMVez2rg/viewform" class="btn btn-danger btn-round my-2" target="_blank">
-    発表に応募する / Open Form
-  </a>
-</div>
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">9:30 ~ 10:00</span>
+      </div>
+      <div class="talk-title">
+        <h3>開場・受付 / Registration</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">10:00 ~ 10:15</span>
+      </div>
+      <div class="talk-title">
+        <h3>オープニング / Opening</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">10:15 ~ 10:55</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/Junya Fukuda.jpg" class="img-circle img-no-padding img-responsive" alt="Junya Fukuda's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>Django 3.2 ASGI対応  - こわくない asyncio 基礎とasync viewの使い所</h3>
+        <p>Junya Fukuda</p>
+      </div>
+      <p>
+        Django は「3」にてASGI対応をしました。ASGIとはUvicornなどのWebサーバーとWebフレームワークを繋ぐ、asyncio対応です。そう、asyncio。Pythonを使っていてasyncioを怖いと思う方ももしかしたらいらっしゃるかもしれません。（私もそうです）<br>本トークでは、「今までasyncioってよくわからなかったけど、基礎はわかったかも。」「async viewってこういう時に使えるんだ。」そして「Django ORMのasync対応が楽しみだ！」と思ってもらえるような内容をお届けしたいと思っています。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">11:05 ~ 11:45</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/Takayuki Shimizukawa.jpg" class="img-circle img-no-padding img-responsive" alt="Takayuki Shimizukawa's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>RLSを用いたマルチテナント実装 for Django</h3>
+        <p>Takayuki Shimizukawa</p>
+      </div>
+      <p>
+        複数のテナント（チーム・組織）向けにサービスを提供するシステムで、テナント相互の情報を分離して扱う、複数のマルチテナントアーキテクチャが考案されています。「各プログラマが努力して実装する」戦略でも実現はできますが、プログラミングミスや設定間違いによるデータ混濁が高確率で発生します。このトークでは、マルチテナントアーキテクチャにおけるデータ分割アプローチのひとつ「共有アプローチ」をDjangoとPostgresのRow Level Security (RLS) の組合せで安全に実現する方法を紹介します。またこの方法のメリット、デメリットを紹介します。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">11:45 ~ 13:15</span>
+      </div>
+      <div class="talk-title">
+        <h3>お昼休憩 / Lunch</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">13:15 ~ 13:55</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/みずき.jpg" class="img-circle img-no-padding img-responsive" alt="みずき's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>Djangoでのプロジェクトだって型ヒントを運用出来る！</h3>
+        <p>みずき</p>
+      </div>
+      <p>
+        型ヒントによって、Pythonは動的型付言語でありながらも、型安全にコードを書けるようになりました。<br>一方、フレームワークを使った開発だと、フレームワークの機能で型ヒントをまだ組み込んでいないものがあったりと、実際に適用しようとすると困ったことがありませんか？<br>このような難点がありながらも、弊社では型ヒントを開発に取り入れることにしました。<br>このトークでは、なぜ型ヒントを使うことにしたのか、導入する上での困りごとにどう対処したのか、運用する上で工夫していることなどをお伝えします。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">14:05 ~ 14:45</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/Akihito Yokose（akiyoko）.jpg" class="img-circle img-no-padding img-responsive" alt="Akihito Yokose（akiyoko）'s Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>Django管理サイトをカスタマイズする前に教えてほしかったこと</h3>
+        <p>Akihito Yokose（akiyoko）</p>
+      </div>
+      <p>
+        たった数行のコードを書き足すだけであらゆるモデルに対応したCRUD画面が追加できる「管理サイト（Django Admin）」は、その手軽さと便利さで開発者からの評価も高く、開発中のデバッグから本番リリース後のデータメンテナンスまで幅広くお世話になるDjangoの目玉機能です。<br>メリットばかりがクローズアップされがちな管理サイトですが、ある程度以上のカスタマイズをしようとすると、一転して多くのトラブルが襲い掛かってきます。<br>そこで本発表では、「Django管理サイトをカスタマイズする前に教えてほしかったこと」と題して、管理サイトをカスタマイズするにあたって苦労するポイントとそれらの解決策について説明します。特に、これから管理サイトをカスタマイズしようと考えている方は必聴です。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">14:45 ~ 15:15</span>
+      </div>
+      <div class="talk-title">
+        <h3>写真撮影 / Photo Session</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">15:15 ~ 15:45</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/haru.jpg" class="img-circle img-no-padding img-responsive" alt="haru's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>未経験者のDjangoでの個人開発</h3>
+        <p>haru</p>
+      </div>
+      <p>
+        初めて触ったフレームワークがDjangoだった私は、いろいろなことを悩んだりしながら個人開発としてアプリを開発しました。そのDjangoを使用して個人開発のアプリを完成するまでに悩んだこと、初学者から見てDjangoで開発して良かったと思うことなど、技術的な話より初学者として学習するときに困ったことや、どのように学習していけば良かったと感じているか、を発表させていただきます。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">15:55 ~ 16:25</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/Gajendra Deshpande.jpg" class="img-circle img-no-padding img-responsive" alt="Gajendra Deshpande's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>Securing Django Web Applications</h3>
+        <p>Gajendra Deshpande</p>
+      </div>
+      <p>
+        In this talk, we will focus on two aspects. First, performing penetration testing on Django web applications to identify vulnerabilities and scanning for OWASP Top 10 risks. Second, strategies and configuration settings for making the source code and Django applications secure.
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">16:35 ~ 17:05</span>
+      </div>
+      <div class="talk-title">
+        <h3>トーク枠（後日掲載予定）</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">17:15 ~ 17:45</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/Kyutatsu Nishiura.jpg" class="img-circle img-no-padding img-responsive" alt="Kyutatsu Nishiura's Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>理解して使いこなすDjangoのForm機能</h3>
+        <p>Kyutatsu Nishiura</p>
+      </div>
+      <p>
+        DjangoのForm機能は使いやすいツールがそろっており、入門記事も多く存在しています。そのため「とりあえず使い始める」上での敷居は低いです。<br>しかしFormのバリデーションやテンプレートでの表示を思った通りにカスタマイズしようとすると、欲しいコードがそのまま見つかる、ということはあまりありません。<br>本発表ではFormの利用について、チュートリアルレベルから実用レベルへの橋渡しとなることを目指した解説を行います。Formを利用する際のデータの流れや仕組みを理解し、公式ドキュメント等を参照しながら、自分自身で作りたい機能を実装できることを目指します。
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">17:55 ~ 18:15</span>
+      </div>
+      <div class="talk-title">
+        <h3>クロージング / Closing</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+
 
       </div>
     </div>
@@ -340,18 +573,27 @@
     <table class="table table-hover">
       <thead>
         <tr>
-          <th>名前</th><th>E-mail</th>
+          <th>名前</th><th>Twitter</th><th>E-mail</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>清原弘貴</td><td>hirokiky {at} gmail.com</td>
+          <td>清原弘貴</td><td>@hirokiky</td><td>hirokiky {at} gmail.com</td>
         </tr>
         <tr>
-          <td>岡野真也</td><td>tokibito {at} gmail.com</td>
+          <td>岡野真也</td><td>@tokibito</td><td>tokibito {at} gmail.com</td>
         </tr>
         <tr>
-          <td>TBF</td><td>TBF</td>
+          <td>中島祐樹</td><td>@pro_proletariat</td><td>blackrx.robo.vaio {at} gmail.com</td>
+        </tr>
+        <tr>
+          <td>AYAKO</td><td>-</td><td>sandream66 {at} gmail.com</td>
+        </tr>
+        <tr>
+          <td>滝野優紀</td><td>@moon_in_nagano</td><td>takino {at} jsl.co.jp</td>
+        </tr>
+        <tr>
+          <td>jbking</td><td>@jbking</td><td>yusuke {at} jbking.org</td>
         </tr>
       </tbody>
     </table>
