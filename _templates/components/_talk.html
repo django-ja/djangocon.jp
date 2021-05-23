@@ -1,17 +1,17 @@
 {% macro talk(schedule, author, title, description) %}
   <div class="row">
-    <div class="col-2 mr-auto  ml-auto"></div>
-    <div class="col-10 text-left">
+    <div class="col-sm-12 col-md-2 col-lg-2 mr-auto  ml-auto"></div>
+    <div class="col-sm-12 col-md-10 col-lg-10 text-left">
       <div class="talk-info">
         <span class="label label-info talk-label">{{ schedule }}</span>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-2 mr-auto  ml-auto text-center">
-      <img src="static/img/authors/{{ author }}.jpg" class="img-circle img-no-padding img-responsive" alt="{{ author }}'s Icon">
+    <div class="col-sm-12 col-md-2 col-lg-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/{{ author }}.jpg" class="img-icon img-circle img-no-padding img-responsive" alt="{{ author }}'s Icon">
     </div>
-    <div class="col-10 text-left">
+    <div class="col-sm-12 col-md-10 col-lg-10 text-left">
       <div class="talk-title">
         <h3>{{ title }}</h3>
         <p>{{ author }}</p>
@@ -26,8 +26,8 @@
 
 {% macro info(schedule, title) %}
   <div class="row">
-    <div class="col-2 mr-auto  ml-auto"></div>
-    <div class="col-10 text-left">
+    <div class="col-sm-12 col-md-2 col-lg-2 mr-auto  ml-auto"></div>
+    <div class="col-sm-12 col-md-10 col-lg-10 text-left">
       <div class="talk-info">
         <span class="label label-info talk-label">{{ schedule }}</span>
       </div>
