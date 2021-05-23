@@ -1,0 +1,40 @@
+{% macro talk(schedule, author, title, description) %}
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">{{ schedule }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto text-center">
+      <img src="static/img/authors/{{ author }}.jpg" class="img-circle img-no-padding img-responsive" alt="{{ author }}'s Icon">
+    </div>
+    <div class="col-10 text-left">
+      <div class="talk-title">
+        <h3>{{ title }}</h3>
+        <p>{{ author }}</p>
+      </div>
+      <p>
+        {{ description.replace('\n', '<br>')|safe }}
+      </p>
+    </div>
+  </div>
+  <hr>
+{% endmacro %}
+
+{% macro info(schedule, title) %}
+  <div class="row">
+    <div class="col-2 mr-auto  ml-auto"></div>
+    <div class="col-10 text-left">
+      <div class="talk-info">
+        <span class="label label-info talk-label">{{ schedule }}</span>
+      </div>
+      <div class="talk-title">
+        <h3>{{ title }}</h3>
+      </div>
+    </div>
+  </div>
+  <hr>
+{% endmacro %}
