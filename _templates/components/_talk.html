@@ -1,4 +1,4 @@
-{% macro talk(schedule, author, title, description) %}
+{% macro talk(schedule, author, title, description, slide, v_sec) %}
   <div class="row">
     <div class="col-sm-12 col-md-2 col-lg-2 mr-auto  ml-auto"></div>
     <div class="col-sm-12 col-md-10 col-lg-10 text-left">
@@ -19,6 +19,9 @@
       <p>
         {{ description.replace('\n', '<br>')|safe }}
       </p>
+      <p>
+        <a href="{{ slide }}" class="btn btn-outline-primary btn-round">Slide</a>
+        <a href="https://www.youtube.com/watch?v=BLfO79jJO2c&t={{ v_sec }}s" class="btn btn-outline-primary btn-round">YouTube</a>
     </div>
   </div>
   <hr>
