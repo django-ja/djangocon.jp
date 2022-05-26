@@ -56,7 +56,7 @@ $(document).ready(function(){
     };
 
     // Activate bootstrap switch
-    $('[data-toggle="switch"]').bootstrapSwitch();
+    // $('[data-toggle="switch"]').bootstrapSwitch();
 
     // Navbar color change on scroll
     if($('.navbar[color-on-scroll]').length != 0){
