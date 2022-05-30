@@ -101,8 +101,13 @@ figure.image {
 
 .section-partners .section-partners-partner {
     padding: 60px;
-}
 
-.section-partners .section-partners-partner img {
-    width: 100%;
+    a {
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-height: 100%;
+    }
 }
