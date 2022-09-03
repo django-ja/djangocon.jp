@@ -4,6 +4,19 @@
     max-width: 100vw;
 }
 
+.navbar {
+    height: 52px;
+
+    .navbar-brand {
+        padding: 10px;
+    }
+
+    .navbar-burger {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
 p {
     margin-bottom: 1rem;
 }
@@ -87,9 +100,18 @@ figure.image {
     }
 }
 
-.talk-info {
-    .talk-label {
-        font-size: 1rem;
+.talk {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+
+    a.talk-title {
+        color: $font-color;
+    }
+
+    .talk-info {
+        .talk-label {
+            font-size: 1rem;
+        }
     }
 }
 
