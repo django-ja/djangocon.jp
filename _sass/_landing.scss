@@ -125,6 +125,20 @@ figure.image {
     max-width: 780px;
 }
 
+.section-lunch {
+    img.lunch-map-ss {
+        max-height: 500px;
+        margin-bottom: 2rem;
+    }
+
+    .vertical-block {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
 .section-partners .section-partners-partner {
     padding: 60px;
 
