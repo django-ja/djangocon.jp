@@ -1,16 +1,464 @@
 {% call section.section('section-program section-lightgrey', 'program', 'PROGRAM', 'プログラム') %}
-<div class="text-center">
-  <h3 class="title">トーク募集中 / Call For Proposals</h3>
-  <p>
-    <a
-      class="btn btn-danger btn-round"
-      target="_blank"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSe5fG1cvvDFIcILqSGtbVjc9vIg8uyIN3AKVWq8MQcGKMNZ1g/viewform"
-      target="_blank"
-    >
-    トークに応募する (Submit a talk)
-    </a>
-
-  </p>
+<div class="row"> <!-- 10:00-11:00 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-sm-6 col-md-9 ml-auto">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>10:00 - 10:15</span>
+        </div>
+        <div class="talk-title">
+          <h3>オープニング / Opening</h3><br />
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+<hr />
+
+<div class="row"><!-- 10:20-11:05-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/noro-yuga.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>10:20 - 11:05</span>
+        </div>
+        <div class="talk-title">
+          <h3>DRFを少しずつオニオンアーキテクチャに寄せていく</h3>
+          <p>野呂有我</p>
+        </div>
+        <p class="description">「DRFを使って事業の初期に高速な開発を実現し、事業や組織が大きくなってきた」<br />
+          そんな状況では、ソフトウェアの構造と開発プロセスが段々噛み合わなくなってくることがあります。<br />
+          今回は本番環境で運用されているソフトウェアを、少しずつオニオンアーキテクチャに作り替えていく試みについてお話ししたいと思います。<br />
+          ※まだ最中ですので、こうやればうまくいく！という類のお話ではありません
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div> <!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/ikuru-matsuno.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>10:20 - 11:05</span>
+        </div>
+        <div class="talk-title">
+          <h3>生成AIでDjangoアプリが作れるのかどうか(FastAPIでもやってみよう</h3>
+          <p>Ryosuke Ikuru, Kazuki Matsuno(共同発表)</p>
+        </div>
+        <p class="description">生成AIでDjangoアプリが作れるのかどうかを検証<br />
+          テストまで作れたらいいなーと思ってます<br />
+          FastAPIも検証予定<br />
+          生成AI初心者なので質問コーナーで詳しい人にアドバイスをたくさんいただく予定なのでよろしくお願いします
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"><!-- 11:15-12:00-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/raphael-gaschignard.png" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>11:15 - 12:00</span>
+        </div>
+        <div class="talk-title">
+          <h3>The Async Django ORM: Where Is it?</h3>
+          <p>Raphael Gaschignard</p>
+        </div>
+        <p class="description">While Django has laid out its plans for being async-capable way back in 2019, the ORM still doesn't natively support async operations.<br />
+          This talk will cover the difficulties involved with adapting the ORM. It will also cover some progress that has been made in the past year.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/naohide.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>11:15 - 12:00</span>
+        </div>
+        <div class="talk-title">
+          <h3>DXにおけるDjangoの部分的利用</h3>
+          <p>naohide</p>
+        </div>
+        <p class="description">東京ガスでは、社内の顧客システムのDX化を進めています。<br />
+          その中で、既存の顧客情報を新システムに移管するアプリケーション開発でDjangoを使用しています。<br />
+          移管システムでの部分的なDjango使用についてお話します。
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"> <!-- 12:00-13:00 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-sm-6 col-md-9 ml-auto">
+        <div class="talk-info">
+          <span>12:00 - 13:00</span>
+        </div>
+        <div class="talk-title">
+          <h3>昼食 / Lunch</h3><br />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr />
+
+<div class="row"><!-- 13:00-13:45-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/nikkie.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>13:00 - 13:45</span>
+        </div>
+        <div class="talk-title">
+          <h3>FastAPIの現場から</h3>
+          <p>nikkie</p>
+        </div>
+        <p class="description">発表者はFastAPIのチュートリアルを修了し、PyConのいくつかのトークを手がかりに、ここ2ヶ月ほど実務でFastAPIを使った小さなAPI開発をしています。<br />
+          その中で学んだFastAPIや非同期IOまわりの知見を共有します。<br />
+          非同期なDB接続（SQLModel, SQLAlchemy）、クリーンアーキテクチャを念頭に置いた設計、そして設定（pydantic-settings）やログ（uvicorn）といったTwelve-Factor App。（ただし認証は扱いません）<br />
+          FastAPIのチュートリアルを通してやっていて、Webアプリの開発経験があれば、何かしら持ち帰れるところがあるトークになるのではないかと思っています。
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/tell-k.png" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>13:00 - 13:45</span>
+        </div>
+        <div class="talk-title">
+          <h3>できる！Djangoテスト(2025)</h3>
+          <p>tell-k</p>
+        </div>
+        <p class="description">Djangoでテストを書くためのノウハウやTipsをまとめて紹介します。<br />
+          そもそもテストを書いたことがない、最低限どこまでやったらいいのかわからない<br />
+          初心者の人がハマりそうなポイントを中心にご紹介したいと思います。<br />
+          2018年にも同じテーマで発表しましたが、大分様変わりしているので<br />
+          その辺のまとめとしても参考になれば幸いです。
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"><!-- 13:55-14:40-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/chris-achinga.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>13:55 - 14:40</span>
+        </div>
+        <div class="talk-title">
+          <h3>Speed at Scale for Django Web Applications</h3>
+          <p>Chris Achinga</p>
+        </div>
+        <p class="description">Get to know how to scale Django applications without sacrificing speed. This talk explores query optimizations, caching, asynchronous processing, and scalable design patterns. In addition to that, how you can use the browser capabilities and APIs to improve user experience.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/masataka-okudera.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>13:55 - 14:40</span>
+        </div>
+        <div class="talk-title">
+          <h3>Djangoにおける複数ユーザー種別認証の設計アプローチ</h3>
+          <p>Masataka Okudera</p>
+        </div>
+        <p class="description">Djangoには組み込みのユーザーモデルがあり、単一のユーザー種別であれば簡単にセキュアな認証を実装できます。しかし、現実のWebサービスでは往々にして、性質が大きく異なる2つ以上のユーザー種別の認証を扱う必要に迫られます(例: ECサイトの出品者ユーザーと購入者ユーザー)。本セッションでは、Djangoで複数のユーザー種別の認証を実現するための具体的な設計アプローチとそれぞれのメリット・デメリットを紹介します。本発表を叩き台として、Djangoコミュニティで複数のユーザー種別の認証の設計の議論が活発になることを期待します。
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"><!-- 14:50-15:35-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/kashewnuts.png" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>14:50 - 15:35</span>
+        </div>
+        <div class="talk-title">
+          <h3>Django NinjaによるAPI開発の効率化とリプレースの実践</h3>
+          <p>吉田花春</p>
+        </div>
+        <p class="description">弊社のあるDjangoプロジェクトは10年以上にわたり、数度のリプレースを経て外部公開APIを運用してきました。<br />
+          Pythonを用いたAPI実装としてDjango REST frameworkや高速なFastAPIが選択肢にある中、安定性や性能を重視しつつ将来的な機能追加や要件変更にも柔軟に対応できる仕組みとしてdjango-ninjaを採用しました。<br />
+          本発表ではリプレースにおける取り組みと得られた知見を共有します。
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">ja</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/apoorv-garg.png" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>14:50 - 15:35</span>
+        </div>
+        <div class="talk-title">
+          <h3>Getting Knowledge from Django Hits: Using Grafana and Prometheus</h3>
+          <p>Apoorv Garg</p>
+        </div>
+        <p class="description">Discover how Prometheus and Grafana can help you supercharge your Django apps! In this webinar, you'll learn how to set up effective monitoring, visualise critical metrics, and quickly debug. Gain actionable information to improve performance and simplify troubleshooting in real-world scenarios.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"><!-- 15:45-16:30-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/craig-west.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>15:45 - 16:30</span>
+        </div>
+        <div class="talk-title">
+          <h3>Implementing Agentic AI Solutions in Django from scratch</h3>
+          <p>Craig West</p>
+        </div>
+        <p class="description">The use of AI and AI Agents in everyday Django can be viewed as `AI as API` where we can create on the Django side powerful agentic APIs. If, for example, we have a SEARCH, HELP or FAQ section in our app, we can add AI components to leverage AI.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/priya-pahwa.png" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>15:45 - 16:30</span>
+        </div>
+        <div class="talk-title">
+          <h3>Culture Eats Strategy for Breakfast: Why Psychological Safety Matters in Open Source</h3>
+          <p>Priya Pahwa</p>
+        </div>
+        <p class="description">The success of open-source projects goes beyond technical brilliance—it's grounded in a welcoming culture, without which vultures may swoop in. This talk explores psychological safety as the key to collaboration and highlights how the Django community fosters an inclusive space where contributors feel valued.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"><!-- 16:40-17:25-->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/sabderemane.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-info">ROOM 1</span>
+          <span>16:40 - 17:25</span>
+        </div>
+        <div class="talk-title">
+          <h3>Diving into DSF governance: past, present and future</h3>
+          <p>Sarah Abderemane, sabderemane</p>
+        </div>
+        <p class="description">Discover the gouvernance of the Django Software Foundation, what it does and how it's structured through the time.<br />
+          Find out the people working behind the scenes.What ideas and work are in progress and how people can get involved if they are interested.
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-8 col-sm-6 col-md-3 mr-auto  ml-auto text-center">
+        <img src="static/img/faces/maxim-danilov.jpg" class="img-circle img-no-padding img-responsive" alt="Rounded Image">
+      </div>
+      <div class="col-sm-6 col-md-9">
+        <div class="talk-info">
+          <span class="label label-success">ROOM 2</span>
+          <span>16:40 - 17:25</span>
+        </div>
+        <div class="talk-title">
+          <h3>µDjango. The next step in the evolution of asynchronous microservices technology.</h3>
+          <p>Maxim Danilov</p>
+        </div>
+        <p class="description">A standard Django project involves working with multiple files and folders from the start.<br />
+          Let's see how the work with a Django project when we have only one file in project.<br />
+          This solution automatically transforms Django into a microservice-oriented async framework with "batteries included” philosophy containing only one .py file 😊
+        </p>
+        <div>
+          <button type="button" class="btn btn-primary btn-round">en</button>
+          <!-- <a href="#"><button type="button" class="btn btn-info btn-just-icon"><i class="fa fa-home"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-twitter-bg btn-just-icon"><i class="fa fa-twitter"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-facebook-bg btn-just-icon"><i class="fa fa-facebook-square"></i></button></a>
+          <a href="#"><button type="button" class="btn btn-github-bg btn-just-icon"><i class="fa fa-github"></i></button></a> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- end col-md-6 -->
+</div>
+<hr />
+
+<div class="row"> <!-- 18:15 -18:30 -->
+  <div class="col-md-6">
+    <div class="row">
+      <div class="col-sm-6 col-md-9 ml-auto">
+        <div class="talk-info">
+          <span>17:30 -17:45 </span>
+        </div>
+        <div class="talk-title">
+          <h3>クロージング / Closing</h3><br />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr />
+
 {% endcall %}
